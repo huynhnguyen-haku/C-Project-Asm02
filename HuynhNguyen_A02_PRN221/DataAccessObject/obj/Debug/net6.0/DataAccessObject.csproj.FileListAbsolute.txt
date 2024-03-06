@@ -1,0 +1,60 @@
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.deps.json
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.pdb
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.dll
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.pdb
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.AssemblyReference.cache
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfoInputs.cache
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfo.cs
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CopyComplete
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\refint\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.pdb
+C:\Users\Huynh Nguyen\Documents\FPT University\Kỳ 7\PRN211\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\ref\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.deps.json
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.pdb
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.pdb
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.AssemblyReference.cache
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfoInputs.cache
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfo.cs
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CopyComplete
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\refint\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.pdb
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A01_PRN221\DataAccessObject\obj\Debug\net6.0\ref\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.deps.json
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.pdb
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.pdb
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.AssemblyReference.cache
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfoInputs.cache
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfo.cs
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CopyComplete
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\refint\DataAccessObject.dll
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.pdb
+C:\Users\Huynh Nguyen\Desktop\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\ref\DataAccessObject.dll
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.deps.json
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.dll
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\DataAccessObject.pdb
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.dll
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\bin\Debug\net6.0\BusinessObject.pdb
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.AssemblyReference.cache
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfoInputs.cache
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.AssemblyInfo.cs
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CoreCompileInputs.cache
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.csproj.CopyComplete
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.dll
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\refint\DataAccessObject.dll
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\DataAccessObject.pdb
+D:\HuynhNguyen_A02_PRN221\DataAccessObject\obj\Debug\net6.0\ref\DataAccessObject.dll
