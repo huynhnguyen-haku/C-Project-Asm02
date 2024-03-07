@@ -1,0 +1,56 @@
+﻿@page
+@model RazorPages.Pages.ManagerPage.ManageCar.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "/Pages/Shared/_LayoutManagerPage.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.CarName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.CarName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.UnitPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.UnitPrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.UnitsInStock)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.UnitsInStock)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.CarStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.CarStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.Category.CategoryName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Car?.CarId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

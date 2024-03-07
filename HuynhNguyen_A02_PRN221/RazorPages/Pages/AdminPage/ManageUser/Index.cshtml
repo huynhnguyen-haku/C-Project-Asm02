@@ -1,0 +1,89 @@
+﻿@page
+@model RazorPages.Pages.AdminPage.ManageUser.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "/Pages/Shared/_LayoutAdminPage.cshtml";
+}
+
+<h1>User accounts management</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form method="get">
+    <div>
+        <label for="searchTerm">Search Customer:</label>
+        <input type="text" id="searchTerm" name="SearchTerm" placeholder="Enter customer name or email" value="@Model.SearchTerm">
+        <button type="submit">Search</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].Birthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].Role)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.User) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Birthday)
+            </td>
+                <td>
+                    @if (item.Role == "Admin")
+                    {
+                        <span class="text-primary">Admin</span>
+                    }
+                    else if (item.Role == "Customer")
+                    {
+                        <span class="text-info">Customer</span>
+                    }
+                </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.UserId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.UserId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.UserId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

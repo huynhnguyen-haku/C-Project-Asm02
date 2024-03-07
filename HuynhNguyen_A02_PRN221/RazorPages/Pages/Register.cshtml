@@ -1,0 +1,83 @@
+﻿@page
+@model RazorPages.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    /* Style cho form */
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    /* Style cho label */
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    /* Style cho input */
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    /* Style cho button */
+    button[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<h1>Register</h1>
+
+<form method="post">
+    <div>
+        <label for="User_Email">Email:</label>
+        <input type="email" id="User_Email" name="User.Email" asp-for="User.Email" required>
+    </div>
+
+    <div>
+        <label for="User_UserName">User Name:</label>
+        <input type="text" id="User_UserName" name="User.UserName" asp-for="User.UserName" required>
+    </div>
+
+    <div>
+        <label for="User_Password">Password:</label>
+        <input type="password" id="User_Password" name="User.Password" asp-for="User.Password" required>
+    </div>
+
+    <div>
+        <label for="ConfirmPassword">Confirm Password:</label>
+        <input type="password" id="ConfirmPassword" name="ConfirmPassword" asp-for="ConfirmPassword" required>
+    </div>
+
+    <div>
+        <label for="User_Birthday">Birthday:</label>
+        <input type="date" id="User_Birthday" name="User.Birthday" asp-for="User.Birthday">
+    </div>
+
+    <div>
+        <button type="submit">Register</button>
+    </div>
+</form>

@@ -1,0 +1,52 @@
+﻿@page
+@model RazorPages.Pages.ManagerPage.ManageCategory.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "/Pages/Shared/_LayoutManagerPage.cshtml";
+}
+
+<h1>Categories management</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form method="get">
+    <div>
+        <label for="searchTerm">Search Category:</label>
+        <input type="text" id="searchTerm" name="SearchTerm" placeholder="Enter category name" value="@Model.SearchTerm">
+        <button type="submit">Search</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].CategoryDescription)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Category) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryDescription)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CategoryId">Edit</a> |
+                    <!--<a asp-page="./Details" asp-route-id="@item.CategoryId">Details</a> |-->
+                <a asp-page="./Delete" asp-route-id="@item.CategoryId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
