@@ -41,22 +41,23 @@ namespace RazorPages.Pages.AdminPage.ManageUser
             if (HttpContext.Session.GetString("Role") == "Admin")
             {
                 // Get the list of users
-                var users = userService.GetUsersList().Where(a => a.Role == "Customer");
-
-                // Filter the users based on the search value
-                if (!string.IsNullOrEmpty(SearchTerm))
-                {
-                    users = users.Where(u => u.Email.Contains(SearchTerm) ||
-                    u.City.Contains(SearchTerm) ||
-                    u.Country.Contains(SearchTerm) ||
-                    u.UserName.Contains(SearchTerm));
-                }
-
-                User = users.ToList();
-
+                SearchTerm = "";
+                User = userService.GetUsersList();
                 return Page();
             }
             return RedirectToPage("/Login");
+        }
+
+        public IActionResult OnPostSearch()
+        {
+            if(string.IsNullOrEmpty(SearchTerm))
+            {
+                User = userService.GetUsersList();
+                return Page();
+            }
+            var search = SearchTerm.ToLower().Trim();
+            User = userService.GetUsersList().Where(a => a.UserName.ToLower().Contains(search)).ToList();
+            return Page();
         }
     }
 }

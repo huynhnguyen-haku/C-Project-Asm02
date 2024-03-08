@@ -51,9 +51,9 @@ namespace RazorPages.Pages.AdminPage.ManageCar
         public async Task<IActionResult> OnPostAsync()
         {          
             Car result = carService.CreateCars(Car);
-            if (result != null)
+            if (result == null)
             {
-                ViewData["notification"] = "Email is existed";
+                ViewData["notification"] = "Car is existed";
                 return OnGet();
             }
             return RedirectToPage("./Index");
